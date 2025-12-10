@@ -1,0 +1,530 @@
+/* HEADER COMPONENT */
+
+.header {
+ 
+ background-image: linear-gradient(to right, rgb(37, 35, 35) 0%, rgba(45, 45, 51, 0) 90%), url('/background-image.jpg');
+
+    background-size: cover;
+    height: 60rem; 
+    position: relative;
+
+}
+
+.main-header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 2.5rem 2rem;
+   
+    /* height: 40rem; */
+}
+
+.left-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 7rem;
+}
+
+.main-nav-list {
+    display: flex;
+    list-style: none;
+    gap: 4rem;
+    font-size: 1.5rem;
+}
+
+.nav-list-left {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-decoration: none;
+    color: white;
+}
+
+.logo {
+    margin-right: 7px;
+    color: white;
+}
+
+.main-nav-item {
+    text-decoration: none;
+    color: white;
+}
+
+.style {
+    background-color: #00aaff;;
+    padding: 1.5rem 2rem;
+    align-items: center;
+}
+
+/* HERO SECTION */
+
+.hero-container {
+    position: absolute;
+    left: 10%;
+    top: 30%;
+}
+
+.headline h1 {
+    color: white;
+    font-size: 5rem;
+    font-weight: 700;
+}
+
+.headline p {
+    padding: 2.3rem 0;
+    color: white;
+    font-size: 1.7rem;
+    line-height: 1.6;
+    
+}
+
+.btn {
+ color: white;
+ background-color: #00aaff;
+ padding: 1rem 2rem ;
+ text-decoration: none;
+ font-size: 1.4rem;
+ border-radius: 2rem;
+}
+
+/* 3things SECTION  */
+
+.second {
+    width: 100%;
+    height: 30rem;
+    background-color: #252b42;
+    align-items: center;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+}
+
+.box1 {
+    height: 20rem;
+    width: 20rem;
+    /* border: 2px solid black; */
+    margin: 4.5rem;
+    padding: 2rem;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.box1 .icon1 {
+ color: #00aaff;
+ font-size: 5rem;
+ padding: 1rem;
+}
+
+.box1 h3 {
+    font-size: bold;
+    color: white;
+    padding: 1.3rem;
+}
+
+.box1 p {
+    color: white;
+    line-height: 1.5;
+    font-size: 1rem;
+}
+
+/* INDUSTRY SECTION */
+
+.industry {
+    max-width: 100%;
+    height: 55rem;
+    background-color: #8ec2f2;
+}
+
+.industry-text {
+    text-align: center;
+}
+
+.industry-text h2 {
+    color: white;
+    font-size: 2.9rem;
+    font-weight: 600;
+    padding-top: 5rem;
+    margin-bottom: 1.3rem;
+}
+
+.industry-text p {
+    color: white;
+    font-size: 1.1rem;
+   line-height: 1.5;
+}
+
+.cards-section {
+    display: flex;
+    justify-content: center;
+    gap: 12rem;
+    padding: 8rem 0;
+}
+
+.text-container {
+    background-color: whitesmoke;
+    color: black;
+    padding: 2.5rem 6rem;
+}
+
+.text-container h3 {
+    font-size: 1.6rem;
+    padding-bottom: 0.3rem;
+}
+
+.stars-section {
+    color: goldenrod;
+    padding: 1rem 1rem 1rem 0;
+    font-size: 1.7rem;
+}
+
+.para {
+    color: #808080;
+    line-height: 1.6;
+    font-size: 1.2rem;
+}
+
+.cards {
+    position: relative;
+}
+
+.img {
+    height: 5.5rem;
+    width: 5.5rem;
+    border-radius: 50%;
+    position: absolute;
+    left: -3.5rem;
+    top: 2rem;
+}
+
+/* INDUSTRIES 2 SECTION  */
+
+.industries {
+    max-width: 100%;
+    height: 55rem;
+    background-color: #252b42;
+}
+
+.industry-textt {
+    text-align: center;
+}
+
+.industry-textt h2 {
+    color: white;
+    font-size: 2.9rem;
+    font-weight: 600;
+    padding-top: 5rem;
+    margin-bottom: 1.3rem;
+}
+
+.industry-textt p {
+    color: white;
+    font-size: 1.1rem;
+   line-height: 1.5;
+}
+
+.carding {
+    display: flex;
+     padding: 5rem 5rem;
+     gap: 2rem;
+
+
+}
+
+.project-cards {
+    height: 35rem;
+    width: 29rem;
+    background-image: url(/treees.webp);
+    background-size: cover;
+    position: relative;
+}
+
+.card-contentt {
+    position: absolute;
+    top: 23rem;
+    padding: 0rem 2rem;
+    
+}
+
+.card-contentt h3 {
+    color: white;
+}
+
+.card-contentt p {
+    color: white;
+    padding: 1rem 0rem;
+    line-height: 1.6;
+    font-size: 1.3rem;
+    margin-bottom: 1rem;
+}
+
+.Vbtn {
+    color: white;
+    background-color: #00aaff;
+    padding: 1rem 2.5rem;
+    border-radius: 2rem;
+    text-decoration: none;
+    font-size: bold;
+}
+
+.pricing {
+    max-width: 100%;
+    height: 75rem;
+    background-color: #252b42;
+}
+
+.container-pricing {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 7rem 2rem;
+}
+
+.price-card {
+    height: 45rem;
+    width: 23.5rem;
+    background-color: white; 
+    border-radius: 1.6rem;
+}
+
+.head {
+    color: black;
+    padding: 3rem;
+    text-align: center; 
+}
+
+.desc {
+    color: #808080;
+    text-align: center;
+    font-size: 1.2rem;
+    font-weight: 550;
+}
+
+.price-dollar {
+    text-align: center;
+    color: #00aaff;
+    padding: 1rem;
+    font-size: 3rem;
+    font-weight: 780;
+}
+
+.month {
+    color: #badaf7;
+   font-size: 1.2rem;
+   font-weight: 600;
+   text-align: center;
+   margin-bottom: 2.5rem;
+}
+
+.Tbtn {
+    color: white;
+    background-color: #00aaff;
+    text-align: center;
+    padding: 1.3rem 6rem;
+    border-radius: 0.5rem;
+   margin: 0 2.8rem;
+   text-decoration: none;
+   font-size: 1.2rem;
+   font-weight: 200 ;
+}
+
+.list {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 1.6rem;
+    padding: 3rem 1.5rem;
+    margin-top: 1rem;
+}
+
+.list-item {
+    font-size: 1.2rem;
+    font-weight: 548;
+    display: flex;
+    align-items: center;
+    gap:1.2rem;
+}
+
+.list-icon {
+    width: 2.1rem;
+    height: 2.1rem;
+    /* color: #e67e22; */
+    color: green;
+}
+
+.gray {
+    color: #808080;
+}
+
+.second {
+    position: relative;
+}
+
+.new {
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    background-color:#e67e22;
+    color: white;
+    font-size: 1.6rem;
+    position: absolute;
+    top: -2rem;
+    right: 1.7rem;
+   
+     display: flex;
+    align-items: center;
+    justify-content: center;
+   padding: 2rem;
+}  
+
+/* ********************************* */
+/* APPOINTMENT SECTION */
+/* ********************************* */
+
+.appointment {
+    height: 66rem;
+     background-image: linear-gradient(to right, rgb(217, 211, 211) 0%, rgba(255, 246, 246, 0) 90%), url('/family2contactus.jpg');
+    /* background-image: url(/family2contactus.jpg);  */
+    background-size: cover;
+    position: relative;
+}
+
+.appoint-box {
+    width: 40%;
+    position: absolute;
+    top: 15%;
+    left: 10%;
+}
+
+.appoint-box h2 {
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: #333;
+}
+
+.appoint-box h1 {
+    font-size: 3rem;
+    font-size: 900;
+    padding: 0.5rem 0rem;
+    margin-bottom: 3rem;
+    color: #1c2340;
+}
+
+
+form .row {
+  display: flex;
+  gap: 12px;
+  margin-bottom: 13px;
+}
+
+form input,
+form select,
+form textarea {
+  width: 100%;
+  padding: 12px;
+  font-size: 14px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  color: #808080;
+}
+
+form textarea {
+  min-height: 100px;
+  resize: vertical;
+  margin-bottom: 20px;
+}
+
+form button {
+  background-color: #00aaff;
+  color: white; 
+  padding: 12px 25px;
+  font-size: 15px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+
+
+
+
+/* ********************************* */
+/* FOOTER SECTION */
+/* ********************************* */
+
+.grid {
+    display: grid;
+    /* gap: 9.6rem; */
+    row-gap: 9.6rem;
+    column-gap: 2rem;
+}
+
+.container {
+    max-width: 90rem;
+    margin: 0 auto;
+    padding: 0 3.2rem;
+}
+
+.footer {
+    padding: 1.8rem 9.5rem;
+    border-top: 1px solid #eee;
+    background-color: #1c2340;
+}
+
+.grid--footer {
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+}
+
+.footer-heading {
+    font-weight: 600;
+    /* font-weight: small; */
+    margin-bottom: 1rem;
+    color: white;
+}
+
+.footer-link:link, .footer-link:visited {
+    text-decoration: none;
+    /* font-size: 1.6rem; */
+    color: white;
+    transition: all 0.3s;
+    font-size: small;
+    line-height: 2;
+}
+
+.footer-link:hover, .footer-link:active {
+    color: burlywood;
+}
+
+.footer-nav {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    /* gap: 0.4rem; */
+}
+
+
+.copyright {
+  display: flex;
+  justify-content: space-around;
+  padding: 1.5rem 1rem;
+}
+
+.social-links {
+  list-style: none;
+  display: flex;
+  gap: 1rem;
+}
+
+.linkss {
+  text-decoration: none;
+    font-size: 1.6rem;
+    color: #00aaff;
+    transition: all 0.3s;
+}
+
+
+
+
+
