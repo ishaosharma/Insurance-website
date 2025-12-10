@@ -1,0 +1,675 @@
+/* === Global Reset === */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  overflow-x: hidden;
+}
+
+/* === Section Header === */
+.section-header {
+  width: 100%;
+  height: 40rem;
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 1) 0%, rgba(0, 0, 0, 0) 90%), url('/background-image.jpg');
+  background-size: cover;
+  position: relative; 
+}
+
+/* === Header/Navbar === */
+.header {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  /* padding-top: 1rem; */
+  padding: 1rem 6rem;
+}
+
+.navbar-left {
+  display: flex;
+  gap: 4rem;
+  align-items: center;
+}
+
+.list {
+  display: flex;
+  list-style: none;
+  gap: 1.4rem;
+}
+
+.list-item {
+  text-decoration: none;
+  color: white;
+}
+
+.navbar-right a {
+  margin-left: 20px;
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+}
+
+.navbar-right a:hover {
+    color: #00aaff;
+}
+
+.right:hover {
+    background-color: white;
+    color: #00aaff;
+}
+
+.right {
+    background-color: #00aaff;
+    padding: 0.9rem;
+    border-radius: 0.3rem;
+}
+
+.list-item:hover, .list-item:active {
+    color: #00aaff;
+}
+
+h1 {
+    color: white;
+}
+
+.btn {
+    background-color: #00aaff;
+    padding: 0.7rem 2.1rem;
+    border-radius: 2rem;
+    text-decoration: none;
+    color: white;
+}
+
+.btn-right {
+    background-color: transparent;
+    padding: 0.5rem 1.8rem;
+    border-radius: 2rem;
+    text-decoration: none;
+    color: white;
+    border: 0.1rem solid white;
+}
+
+/* === Hero Content === */
+#main {
+  position: absolute;
+  top: 180px;
+  left: 180px;
+}
+
+.main-heading {
+  font-weight: 550;
+  font-size: 55px;
+  color: aliceblue;
+  line-height: 3.5rem;
+  letter-spacing: 0.1rem;
+  margin-bottom: 2.7rem;
+}
+
+.main-desc {
+  color: aliceblue;
+  font-size: 1.6rem;
+  font-weight: 300;
+  margin-bottom: 2.5rem;
+}
+
+.main-button a {
+  margin-right: 1rem;
+}
+
+/* === Icon Section (Features) === */
+.sec-section {
+  background-color: #1c2340;
+  color: white;
+  padding: 9rem 1rem;
+}
+
+.icons-section {
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+  flex-wrap: wrap;
+  text-align: center;
+}
+
+.icons-section figure {
+  width: 250px;
+}
+
+.icons-section ion-icon {
+  font-size: 50px;
+  color: #00aaff;
+  margin-bottom: 15px;
+}
+
+.icons-section .title {
+  font-weight: bold;
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.icons-section .desc {
+  font-size: 14px;
+  color: #d0d4e2;
+}
+
+/* === Testimonial Section === */
+.testimonial-section {
+  background-color: #a6d4f5;
+  /* padding: 4rem 1rem; */
+  padding: 8rem 7.5rem;
+  text-align: center;
+}
+
+.testimonial-section h2 {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #fff;
+}
+
+.testimonial-section .subtitle {
+  color: #e1f0fc;
+  font-size: 1rem;
+  margin-top: 0.5rem;
+  margin-bottom: 3rem;
+}
+
+.testimonial-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  /* gap: 2rem; */
+  gap: 3rem;
+}
+
+.testimonial-card {
+  background: white;
+  /* width: 300px; */
+  width: 380px;
+  padding: 2rem;
+  /* border-radius: 8px; */
+  position: relative;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  text-align: left;
+}
+
+.profile-pic {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  position: absolute;
+  /* top: -25px;
+  left: 20px; */
+  top: 28px;
+  left: -29px;
+  /* border: 3px solid white; */
+  border: 3px solid none;
+  background-color: white;
+}
+
+.testimonial-content {
+  margin-top: 2rem;
+}
+
+.testimonial-content h3 {
+  font-weight: 700;
+  font-size: 1.1rem;
+}
+
+.testimonial-content .role {
+  font-size: 0.9rem;
+  color: rgba(145, 142, 142, 1);
+  margin-bottom: 0.5rem;
+}
+
+.stars {
+  font-size: 1.1rem;
+  color: #fbbc04;
+  margin-bottom: 1rem;
+}
+
+.message {
+  font-size: 0.9rem;
+  color: #333;
+}
+
+/* === Industry Projects Section === */
+.industry-projects {
+  background-color: #1c2340;
+  color: white;
+  padding: 60px 20px;
+  text-align: center;
+  width: 100%;
+}
+
+.industry-projects h2 {
+  font-size: 36px;
+  margin-bottom: 10px;
+}
+
+.industry-projects .subtitle {
+  font-size: 16px;
+  color: #d0d4e2;
+  margin-bottom: 50px;
+}
+
+.project-cards {
+  display: flex;
+  justify-content: center;
+  /* flex-wrap: wrap; */
+  gap: 30px;
+}
+
+.card {
+  background-color: white;
+  color: black;
+  width: 300px;
+  height: 420px;
+  text-align: left;
+  border-radius: 5px;
+  overflow: hidden;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+
+}
+.cards{
+  background-image: url('stars.webp');
+    width: 300px;
+  height: 420px;
+  background-position: cover;
+  object-fit: cover;
+  position: relative;
+  overflow: hidden;
+}
+
+.one {
+  background-image: url(treees.webp);
+}
+
+.two {
+  background-image: url('OIP.webp');
+ 
+}
+
+.three {
+   background-image: url(taxx.jpg);
+}
+
+.four {
+   background-image: url(treees.webp);
+}
+
+.card img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+
+.card-content {
+  padding: 20px;
+  position: absolute;
+  bottom: 20px;
+  left: -20px;
+}
+
+.category {
+  font-size: 14px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.card-content h3 {
+  font-size: 16px;
+  margin-bottom: 15px;
+ 
+  /* color: #000; */
+}
+
+.card-content button {
+  background-color: #00aaff;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-weight: bold;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+/* === Pricing Section === */
+.pricing-section {
+  background-color: #1c2340;
+  color: white;
+  padding: 60px 20px;
+  text-align: center;
+}
+
+.new {
+    height: 70px;
+    width: 60px;
+    border-radius: 50%;
+    background-color: #ff5733 ;
+    color: white;
+    position: absolute;
+    right: 31.5rem;
+    top: 158rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   padding: 2rem;
+}
+
+.pricing-section h2 {
+  font-size: 36px;
+  margin-bottom: 10px;
+}
+
+.pricing-section .subtitle {
+  font-size: 14px;
+  color: #b0b8d1;
+  margin-bottom: 50px;
+}
+
+.pricing-cards {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+.card{
+  text-align:center;
+}
+.card h3 {
+  font-size: 20px;
+  margin-bottom: 10px;
+  margin-top: 40px;
+}
+
+.card .desc {
+  font-size: 14px;
+  color: #555;
+  margin-bottom: 10px;
+  
+}
+
+.card .price {
+  font-size: 30px;
+  font-weight: bold;
+  color: #00aaff;
+  margin-bottom: 5px;
+}
+
+.card .period {
+  font-size: 13px;
+  color: #888;
+  margin-bottom: 20px;
+}
+
+.card button {
+  background-color: #00aaff;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-weight: bold;
+  /* border-radius: 5px; */
+  border-radius: 25px;
+  cursor: pointer;
+  margin-bottom: 20px;
+}
+
+.card ul {
+  list-style: none;
+  padding: 0;
+  text-align: center;
+}
+
+.card ul li {
+  margin: 8px 0;
+  font-size: 14px;
+}
+
+
+.badge {
+  position: absolute;
+  top: -10px;
+  right: -10px;
+  background-color: orange;
+  color: white;
+  padding: 5px 12px;
+  font-size: 12px;
+  font-weight: bold;
+  border-radius: 50%;
+}
+
+/* === Appointment Section === */
+.appointment-section {
+  padding: 60px 20px; 
+  /* padding: 3.7rem ; */
+   background-image: linear-gradient(to right, rgb(225, 222, 222) 0%, rgba(255, 246, 246, 0) 90%), url('/family2contactus.jpg');
+  background-size: cover;
+  position: relative; 
+  height: 690px;
+}
+
+.appointment-container {
+  max-width: 800px;
+  margin: auto;
+  display: flex;
+  position: absolute;
+  border-radius: 10px;
+  overflow: hidden;
+  left: 110px;
+}
+
+.form-section {
+  flex: 1;
+  padding: 40px;
+  width: 630px;
+  /* height: 1100px; */
+}
+
+.contact-label {
+  color: #333;
+  font-weight: bold;
+  font-size: 14px;
+  margin-bottom: 5px;
+}
+
+.form-section h2 {
+  font-size: 28px;
+  margin-bottom: 30px;
+  color: #1c2340;
+}
+
+form .row {
+  display: flex;
+  gap: 15px;
+  margin-bottom: 20px;
+}
+
+form input,
+form select,
+form textarea {
+  width: 100%;
+  padding: 12px;
+  font-size: 14px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  color: #808080;
+}
+
+form textarea {
+  min-height: 100px;
+  resize: vertical;
+  margin-bottom: 20px;
+}
+
+form button {
+  background-color: #00aaff;
+  color: white; 
+  padding: 12px 25px;
+  font-size: 15px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.lines {
+  display: flex;
+  padding: 50px 1px;
+  justify-content: space-around;
+  line-height: 1.5;
+}
+
+.texting {
+  color: #808080 ;
+}
+
+.contactuss {
+   background-color: #00aaff;
+    padding: 0.5rem 1.7rem;
+    border-radius: 0.3rem;
+    font-weight: bold;
+     border: none;
+}
+
+.contactuss a {
+  text-decoration: none;
+   color: white; 
+}
+
+
+/* ********************************* */
+/* FOOTER SECTION */
+/* ********************************* */
+
+.grid {
+    display: grid;
+    /* gap: 9.6rem; */
+    row-gap: 9.6rem;
+    column-gap: 2rem;
+}
+
+.container {
+    max-width: 90rem;
+    margin: 0 auto;
+    padding: 0 3.2rem;
+}
+
+.footer {
+    padding: 1.8rem 9.5rem;
+    border-top: 1px solid #eee;
+    background-color: #1c2340;
+}
+
+.grid--footer {
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+}
+
+.footer-heading {
+    font-weight: 600;
+    /* font-weight: small; */
+    margin-bottom: 1rem;
+    color: white;
+}
+
+.footer-link:link, .footer-link:visited {
+    text-decoration: none;
+    /* font-size: 1.6rem; */
+    color: white;
+    transition: all 0.3s;
+    font-size: small;
+    line-height: 2;
+}
+
+.footer-link:hover, .footer-link:active {
+    color: burlywood;
+}
+
+.footer-nav {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    /* gap: 0.4rem; */
+}
+
+
+.copyright {
+  display: flex;
+  justify-content: space-around;
+  padding: 1.5rem 1rem;
+}
+
+
+
+
+
+/* .logo-col {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-logo {
+    display: block;
+    margin-bottom: 3.2rem;
+}
+
+.social-links {
+    list-style: none;
+    display: flex;
+    gap: 2.4rem;
+}
+
+.social-icon {
+    height: 2.4rem;
+    width: 2.4rem;
+}
+
+.copyright {
+    font-size: 1.4rem;
+    line-height: 1.6;
+    color: #767676;
+    margin-top: auto;
+}
+
+.footer-heading {
+    font-size: 1.8rem;
+    font-weight: 500;
+    margin-bottom: 4rem;
+}
+
+.contacts {
+    font-style: normal;
+    font-size: 1.6rem;
+    line-height: 1.6;
+}
+
+.address {
+    margin-bottom: 2.4rem;
+}
+
+
+.footer-link:link, .footer-link:visited {
+    text-decoration: none;
+    font-size: 1.6rem;
+    color: #767676;
+    transition: all 0.3s;
+}
+
+.footer-link:hover, .footer-link:active {
+    color: #555;
+} */
+
+.social-links {
+  list-style: none;
+  display: flex;
+  gap: 1rem;
+}
+
+.linkss {
+  text-decoration: none;
+    font-size: 1.6rem;
+    color: #00aaff;
+    transition: all 0.3s;
+}

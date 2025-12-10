@@ -1,0 +1,40 @@
+/**************************************************/
+/* BELOW 1200px CSS : for landscape Tablets  1200px/16px = 75em = 75rem as 1rem = 1em = 16px */
+/**************************************************/
+
+@media(max-width: 75rem) {
+
+.new {
+    position: absolute;
+    right: 29.5rem;
+    top: 158rem;
+}
+}
+
+/**************************************************/
+/* BELOW 975px CSS : for landscape Tablets  975px/16px = 75em = 75rem as 1rem = 1em = 16px */
+/**************************************************/
+
+@media (max-width: 61rem){
+    .header {
+        padding: 0.5rem 0rem; 
+    }
+
+}
+
+
+/**************************************************/
+/* BELOW 768px CSS : for landscape Tablets  768px/16px = 49em = 75rem as 1rem = 1em = 16px */
+/**************************************************/
+
+
+
+
+
+
+
+
+
+
+
+
